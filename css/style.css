@@ -26,3 +26,34 @@
 .banner{
     justify-content: center;
 }
+h1{
+    font: normal bold Arial Helvetica;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    font: normal bold 15pt Arial;
+    color: white;
+}
+
+.login{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.paragrafo{
+    font: normal bold 20pt Arial Helvetica;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conta{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.link{
+    color:aqua;
+}
