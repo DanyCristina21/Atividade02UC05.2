@@ -1,6 +1,11 @@
 .body{
     background-color: black;
 }
+.buscar{
+    font: normal bold 12pt Arial Helvetica;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .menu{
     text-decoration: none;
     width: 100%;
