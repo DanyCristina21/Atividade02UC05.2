@@ -97,6 +97,11 @@ h1{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+h2{
+    font: normal bold Arial Helvetica;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .button{
     font: normal bold 15pt Arial;
     color: white;
