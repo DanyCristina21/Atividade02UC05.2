@@ -91,6 +91,7 @@
 }
 .banner{
     justify-content: center;
+    padding: 20px;
 }
 h1{
     font: normal bold Arial Helvetica;
@@ -127,4 +128,34 @@ h2{
 
 .link{
     color:aqua;
+}
+.ofertas{
+    justify-content: center;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#oferta1{
+    padding: 20px;
+    border-radius: 20px;
+    width: 320px;
+    height: 490px;
+}
+#oferta2{
+    padding: 20px;
+    border-radius: 20px;
+    width: 320px;
+    height: 490px;
+}
+#oferta3{
+    padding: 20px;
+    border-radius: 20px;
+    width: 320px;
+    height: 490px;
+}
+#oferta4{
+    padding: 20px;
+    border-radius: 20px;
+    width: 320px;
+    height: 490px;
 }
