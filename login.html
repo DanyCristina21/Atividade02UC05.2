@@ -42,18 +42,13 @@
         </nav>
         
         <div class="login">
-
-            <h1>Entre</h1>
-
-            <p><label class="button" for="email-example">E-mail</label>
-            <input type="email" id="email-example"></p>
-            <p><label class="button" for="password-example">Senha</label> 
-            <input type="password" id="password-example"></p>
-
-            <a class="link" href="index.html">Esqueceu a senha?</a><br>
-
-            <p><input type="submit" id="btn-entrar" name="btn-entrar" required></p>
-
+            <form>
+                <h1>Login</h1>
+                <input type="text" placeholder="Login" id="login">
+                <input type="password" placeholder="Senha" id="senha">
+                <input type="submit" onclick= "logar()">
+                <a class="link" href="index.html">Esqueceu a senha?</a>
+            </form>
         </div>
 
         <div class="conta">
@@ -63,6 +58,8 @@
             <a class="link" href="index.html"><strong>Clique aqui para criar sua conta</strong></a>
 
         </div>
+
+        <script src="css/script.js"></script>
         
         <footer>
             <img src="Img/rodape.jpg" width="100%">
