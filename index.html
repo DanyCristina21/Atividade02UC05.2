@@ -2,6 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Game Mania</title>
         <meta name="description" content="Game Mania, Loja de Games e Tecnologia.">
         <meta name="keywords" content="Games, PC, Celular, Geek, Tecnologia">
@@ -50,22 +51,58 @@
             <!--Já atualizei o menu login nas outras páginas-->
         </nav>
 
-        <div class="banner">
-            <img src="Img/banner1.jpg" width="100%">
+        <div class="slider">
+            <div class="slides">
+                <!--Radio Buttons-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--Fim Radio Buttons-->
+
+                <!--Slides images-->
+                <div class="slide first">
+                    <img src="Img/image1.jpg" alt="imagem1"/>
+                </div>
+                <div class="slide">
+                    <img src="Img/image2.jpg" alt="imagem2"/>
+                </div>
+                <div class="slide">
+                    <img src="Img/image3.jpg" alt="imagem3"/>
+                </div>
+                <div class="slide">
+                    <img src="Img/image4.jpg" alt="imagem4"/>
+                </div>
+                <!--Fim Slides images-->
+                <!--Navigation auto-->
+                <div class="navigation-auto">
+                   <div class="auto-btn1"></div>
+                   <div class="auto-btn2"></div>
+                   <div class="auto-btn3"></div>
+                   <div class="auto-btn4"></div>
+                 <!--Fim Navigation auto-->
+                </div>
+            </div>
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
         </div>
+
 
         <div class="ofertas">
             <img src="Img/oferta1.jpg" width="20%" id="oferta1">
             <img src="Img/oferta2.jpg" width="20%" id="oferta2">
             <img src="Img/oferta3.jpg" width="20%" id="oferta3">
-            <img src="Img/oferta4.jpg" width="20%" id="oferta4">
         </div>
         <!--Inclusão de ofertas de produtos na página inicial-->
 
         <div class="banner">
-            <img src="Img/banner2.jpg" width="62%">
-            <img src="Img/banner3.jpg" width="37%">
+            <img src="Img/banner1.jpg" width="100%">
         </div>
+    <script src="css/script.js"></script>    
 
         <footer>
             <img src="Img/rodape.jpg" width="100%">
